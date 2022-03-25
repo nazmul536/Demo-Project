@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">    
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  /> 
+    <link rel="stylesheet" href="index.css">
+    <title>Document</title>
+</head>
+<body>
+   <!-- Start Header Part -->
+   <nav style="box-shadow: rgba(14, 14, 27, 0.15) 0px 3px 5px 0px, rgba(0, 0, 0, 0.05) 0px 1px 1px 0px;" class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+    <div class="container ">
+      <a class="navbar-brand" href="#">
+        <img src="images/logo-1.png" alt="" >
+      </a>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarScroll">
+        <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px; margin-left: 30px;">
+          <li class="nav-item"><a class="nav-link fw-bold mx-3 pl-5" aria-current="page" href="#">Home</a></li>
+          <li class="nav-item"><a class="nav-link  fw-bold mx-3" aria-current="page" href="#">Blog</a></li>
+          <li class="nav-item"><a class="nav-link  fw-bold mx-3" aria-current="page" href="#">About</a></li>
+          <li class="nav-item"><a class="nav-link  fw-bold mx-3" aria-current="page" href="#">Contact</a></li>
+  
+        
+        </ul>
+        <div class="header-social d-flex align-items-center justify-content-around">
+          <i class="fa-brands fa-facebook-f "></i>
+          <i class="fa-brands fa-twitter "></i>
+          <i  class="fa-brands fa-instagram "></i>
+          <i  class="fa-brands fa-pinterest-p "></i>
+        </div>
+      </div>
+    </div>
+  </nav>
+   <!-- End Header Part -->
+
+ <!-- Start Slider Part -->
+<div style="margin-bottom: 35px;" class="bg-light">
+  <section class="h-50 mt-5">
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active ">
+                <div class="row panda-bg-info p-5 bg-gradient d-flex align-items-center">
+                    <div style="text-align: center;" class="col-lg-6">
+                        <h1 class="animate__animated animate__backInLeft" style="font-size: 130px;font-size: 700; color: #e44a7a;">2K22</h1>
+                        <h3 class="animate__animated animate__backInLeft">Summer Collection</h3><br/>
+                        <button class="animate__animated animate__backInLeft" class="panda-btn-button p-2 goToButton">Go To Shop</button>
+                    </div>
+                    <div  class="col-lg-6">
+                        <img  src="images/f-1.png" class="d-block slider-image" alt="...">
+                    </div>
+                </div>
+
+            </div>
+            <div class="carousel-item">
+                <div class="row panda-bg-info p-5 bg-gradient d-flex align-items-center">
+                  <div style="text-align: center;" class="col-lg-6">
+                    <h1 class="animate__animated animate__backInLeft" style="font-size: 130px;font-size: 700; color: #e44a7a;">2K22</h1>
+                    <h3 class="animate__animated animate__backInLeft">Summer Collection</h3><br/>
+                    <button class="animate__animated animate__backInLeft" class="panda-btn-button p-2">Go To Shop</button>
+                </div>
+                <div  class="col-lg-6">
+                    <img  src="images/f-1.png" class="d-block slider-image" alt="...">
+                </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="row panda-bg-info p-5 bg-gradient d-flex align-items-center">
+                  <div style="text-align: center;" class="col-lg-6">
+                    <h1 class="animate__animated animate__backInLeft" style="font-size: 130px;font-size: 700; color: #e44a7a;">2K22</h1>
+                    <h3 class="animate__animated animate__backInLeft">Summer Collection</h3><br/>
+                    <button class="animate__animated animate__backInLeft" class="panda-btn-button p-2">Go To Shop</button>
+                </div>
+                <div  class="col-lg-6">
+                    <img  src="images/f-1.png" class="d-block slider-image" alt="...">
+                </div>
+                </div>
+            </div>
+        </div>
+     
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+    data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+</button>
+<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+    data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+</button>
+</section>
+</div>
+ <!-- End Slider Part -->
+   
+   <!-- Start My Style Tuesday -->
+  <section style="margin-bottom: 30px;">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6">
+          <img src="images/style1.png" 
+          class="d-block " 
+          alt=".."
+    
+          >
+        </div>
+        <div class="col-lg-6">
+           <!-- MY STYLE TUESDAY -->
+           <div style=" padding: 15px 45px; font-weight:600px" class="col">
+            <h3 class="animate__animated animate__backInLeft" style="color: #666;font-weight: 700;"> ORGANIC <span style=" color: #e44a7a;">TEXTILLES</span></h3>
+             
+            <!-- Shirt Logo -->
+           <div style="display: flex; justify-content: left; align-items: center;">
+            <p style="height: 3px; width: 80px; background-color: gray; margin-right: 5px;"></p>
+            <p style="margin-right: 5px;"><i style="color: #2b3b99;" class="fa-solid fa-shirt "></i></p>
+            <p style="height: 3px; width: 80px; background-color: gray;  margin-right: 5px;"></p>
+         
+        </div>
+            <!-- Admin -->
+           <div style="display: flex;">
+            <p style="margin-right: 5px;color: #666;">Admin</p>
+            <p style="margin-right: 5px;color: #666;">.</p>
+            <p style="margin-right: 5px;color: #666;">Feb23</p>
+            <p style="margin-right: 5px;color: #666;">.</p>
+            <p style="margin-right: 5px;color: #666;">1 min read</p>
+        </div>
+
+        <!-- Lorem ipsum -->
+        <div>
+            <p style="color: #666;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<br/><br/> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            <br/><br/>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            </p>
+        </div>
+
+    
+        <div>
+          <img src="images/stamps.png" class="my-5" alt="">
+        </div>
+           </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+<!-- *******Start Versatile Product Range******** -->
+<section style="margin-bottom: 20px;">
+  <div class="container">
+    <div class="d-flex product-border">
+      <div class="mx-auto"><i class="fa-solid fa-arrow-right me-3 arrow-right"></i></div>
+      <div class="product-range">
+          <h3>Versatile Product Range</h3>
+          <p>We offer product range of huge versatility of every age group and gender. With an expertise hand we offer the production of ladies tops and Blouse, nightwear and sleepwear, skirts, trousers for girl’s tops & dress etc.<br/><br/>
+    
+            For men we manufacture casual shirts and shorts: Despite making the men and women attires, we also make regular clothing as well as school uniform for children. As a global brand, we also take on the production of hospital and hotel uniforms or work wear.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- *******End Versatile Product Range******** -->
+
+
+<!-- *******Start Powerful Workforce******** -->
+<section style="margin-bottom: 20px;">
+  <div class="container">
+    <div class="d-flex product-border">
+      <div class="mx-auto"><i class="fa-solid fa-arrow-right me-3 arrow-right"></i></div>
+      <div class="product-range">
+          <h3>Powerful Workforce</h3>
+          <p>We believe that our workers are the backbone of our success. Coming this far in the journey wouldn’t have been possible without our powerful & skilled workforce working diligently to make the best quality products for our clients. Our skilled workforce comprising of over 1200 workers can handle working with any light materials as well as a wide range of fabrics such as cotton, polyester, viscose, rayon, Tencel, satin, chiffon, etc. Moreover, our dedicated employees are trained to handle specialized operations like fagoting, smocking, pintuck, shearing, and more. To make things even better, our hard-working employees can add value to any product by finishing garments with different kinds of wash, like enzyme, bleach, garment, cool dye, etc. This is also being done by adding prints, embroidery, heat press, attaching embellishments, sequence, ornaments, etc. to the product.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- *******End Powerful Workforce******** -->
+
+
+<!-- *******Start Sustainability and Recycling******** -->
+<section style="margin-bottom: 20px;">
+  <div class="container">
+    <div class="d-flex product-border">
+      <div class="mx-auto"><i class="fa-solid fa-arrow-right me-3 arrow-right"></i></div>
+      <div class="product-range">
+          <h3>Sustainability and Recycling</h3>
+          <p>We are 100% committed to delivering your products on time while maintaining quality and sustainability. Having committed to SDG (Sustainable Development Goals), we believe in the use of recycled materials like recycled polyester, paper, plastic, organic cotton, etc. to minimize raw material wastage and have even received recognition by BGMEA in the year 2021 for our effort towards sustainability.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- *******End Sustainability and Recycling******** -->
+
+
+<!-- *******Start Worldwide Export******** -->
+<section style="margin-bottom: 20px;">
+  <div class="container">
+    <div class="d-flex product-border">
+      <div class="mx-auto"><i class="fa-solid fa-arrow-right me-3 arrow-right"></i></div>
+      <div class="product-range">
+          <h3>Worldwide Export</h3>
+          <p>We export our products all over the world and to all the major continents including Europe, North America, South America, Middle East, North Africa, and South Asia.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- *******End Worldwide Export******** -->
+
+<!-- *******Start The Compatible Production Unit and Safety******** -->
+<section style="margin-bottom: 20px;">
+  <div class="container">
+    <div class="d-flex product-border">
+      <div class="mx-auto"><i class="fa-solid fa-arrow-right me-3 arrow-right"></i></div>
+      <div class="product-range">
+          <h3>The Compatible Production Unit and Safety</h3>
+          <p>We have a versatile and flexible production line equipped with world class machineries where we can manufacture any product and in any size ranging from 300 pcs per color, per style to 250,000 pcs per style. Having a fully compliant production unit audited by ACCORD, SEDEX, BSCI, etc. we provide a safe work environment with a sound building structure, electrical and fire safety for our workers.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- *******End The Compatible Production Unit and Safety******** -->
+
+
+<!-- *******Start Accountability and Transparency******** -->
+<section style="margin-bottom: 20px;">
+  <div class="container">
+    <div class="d-flex product-border">
+      <div class="mx-auto"><i class="fa-solid fa-arrow-right me-3 arrow-right"></i></div>
+      <div class="product-range">
+          <h3>Accountability and Transparency</h3>
+          <p>Our Company is strict when it comes to accountability and transparency; That is why we routinely and rigorously test our social and technical compliance.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- End Accountability and Transparency -->
+
+
+<!-- Start Process and Lead Time -->
+<section style="margin-bottom: 20px;">
+  <div class="container">
+    <div class="d-flex product-border">
+      <div class="mx-auto"><i class="fa-solid fa-arrow-right me-3 arrow-right"></i></div>
+      <div class="product-range">
+          <h3>Process and Lead Time</h3>
+          <p>Before the shipment, we ensure a strict regime of internal audits, critical process checks, 3rd party testing on the fabric, garments, accessories, etc. and a pre-final inspection @ AQL 2.5. We maintain a very high rate (95%) of 1st-time quality approval rate, on-time delivery, Fit Sample approval rate, and compliance rating. So, there are no possibilities of error or damaged products to be shipped.</p>
+      </div>
+    </div>
+  </div>
+</section>
+<div class="container mb-5">
+  <p style="color: #666;">We have goal to be a perfect apparel manufacturer in Bangladesh by producing a wide range of apparel.</p>
+<p style="color: #666;">Setting up a high-efficiency standard helps us to excel in our core functions accurately.</p>
+<p style="color: #666;">The work we have done for several customers is the proof of our loyalty and dedication.</p>
+</div>
+<!-- End Process and Lead Time -->
+
+<!--Start fast delivery,Labels,faq,E-commerce  -->
+<section style="margin: 40px 0px;">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12">
+       <div  class="fast-delivery">
+         <img class="deliver-img animate__animated animate__backInDown" src="images/fast-delevery.png" alt="">
+           <h3 class="my-3">Fast delivery</h3>
+             <p >At imperdiet dui accumsan sit amet nulla risus</p>
+       </div>
+      </div>
+ 
+      <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12">
+       <div class="fast-delivery">
+         <img class="deliver-img animate__animated animate__backInDown" src="images/label.png" alt="">
+           <h3 class=" my-3">Labels</h3>
+             <p >At imperdiet dui accumsan sit amet nulla risus</p>
+       </div>
+      </div>
+      
+ 
+      <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12">
+       <div class="fast-delivery">
+         <img class="deliver-img animate__animated animate__backInDown" src="images/Faq.png" alt="">
+           <h3 class=" my-3">FAQ</h3>
+             <p >At imperdiet dui accumsan sit amet nulla risus</p>
+       </div>
+      </div>
+ 
+      <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12">
+       <div class="fast-delivery">
+         <img class="deliver-img animate__animated animate__backInDown" src="images/E-commerce.png" alt="">
+           <h3 class=" my-3">E-Commerce</h3>
+             <p >At imperdiet dui accumsan sit amet nulla risus</p>
+       </div>
+      </div>
+ 
+    </div>
+  </div>
+ </section>
+ 
+ <!-- End fast delivery,Labels,faq,E-commerce -->
+
+
+
+<!-- Start Profile Picture Display Slider -->
+<div style="margin-bottom: 40px;" id="carouselExampleControls" class="carousel slide container" data-bs-ride="carousel">
+  <div class="carousel-inner bg-img-2">
+    <div class="carousel-item active profile-img-padding-margin">
+      <img src="images/profile-1.jpg" class="d-block profile-img" alt="...">
+         <blockquote class="profile">
+            <p>Thank you very much for making the process easy. I will remember the good treatment when I have a need for services such as yours. Thank You!</p>
+               <cite>Adam Farnsworth</cite>
+          </blockquote>
+    </div>
+    <div class="carousel-item profile-img-padding-margin">
+      <img src="images/profile-1.jpg" class="d-block profile-img" alt="...">
+         <blockquote class="profile">
+            <p>Thank you very much for making the process easy. I will remember the good treatment when I have a need for services such as yours. Thank You!</p>
+               <cite>Adam Farnsworth</cite>
+          </blockquote>
+    </div>
+    <div class="carousel-item profile-img-padding-margin">
+      <img src="images/profile-1.jpg" class="d-block profile-img" alt="...">
+         <blockquote class="profile">
+            <p>Thank you very much for making the process easy. I will remember the good treatment when I have a need for services such as yours. Thank You!</p>
+               <cite>Adam Farnsworth</cite>
+          </blockquote>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+<!--********* End Profile Picture Display Slider *********-->
+
+
+<!-- Start Footer Section -->
+<div style="width: 100%; padding: 50px 0px;">
+  <div class="container">
+    <div class="row">
+      <div  class="col-lg-4 col-md-6 col-sm-12 col-xs-12 logo">
+        <a class="navbar-brand" href="#">
+          <img src="images/logo-1.png" alt=""  class="mb-4 mt-1">
+        </a>
+            <!-- Phone, Email, Address -->
+            <div>
+              <p> <i class="fa-solid fa-location-dot me-2"></i>1,My Address,My Street,New York,Ny,USA</p>
+            </div>
+       
+            <div>
+              <p><i class="fa-solid fa-message me-2"></i></i>contact@domain.com</p>
+            </div>
+      
+            <div>
+               <p><i class="fa-solid fa-phone me-2"></i></i>+1234567890</p>
+            </div>
+      </div>
+
+       <!--========= start Hours area ============-->
+      <div  class="col-lg-4 col-md-6 col-sm-12 col-xs-12 hours">
+        <h3 style="font-weight: 700; margin-bottom: 13px;">Hours</h3>
+
+      <div class="day-list d-flex">
+        <ul>
+          <li>WeekDays</li>
+          <li>Saturday</li>
+          <li>Sunday</li>
+          <li>Holidays</li>
+        </ul>
+        <ul class="time-list">
+          <li>8:00 - 20:00</li>
+          <li> 9:00 - 16:00</li>
+          <li>Closed</li>
+          <li>10:00 - 14:00</li>
+        </ul>
+      </div>
+
+      </div>
+       <!--========= end Hours area ============-->
+      
+      <!--========= start Details area ============-->
+      <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12 location">
+        <h3 style="font-weight: 700; margin-bottom: 20px;">Details</h3>
+      
+        <div>
+          <p><i class="fa-solid fa-truck me-1"></i>
+            Worldwide 100% Free Shipping</p>
+        </div>
+      
+        <div>
+          <p> <i class="fa-solid fa-headphones me-2"></i> Fast and Excellent Customer Support</p>
+        </div>
+      
+        <div>
+          <p> <i class="fa-solid fa-money-bill me-2"></i>100% Moneyback Guarantee</p>
+        </div>
+         
+      </div>
+        <!--========= end Details area ============-->
+
+    </div>
+  </div>
+</div>
+<!--****** End Footer Section ******-->
+
+<!--***** Start Copyright ******-->
+<div class="bg-img">
+  <p class="text-white text-center pt-4"><i class="fa-solid fa-c copyright me-2"></i>Copyright 2022 All Rights Reserved</p>
+</div>
+<!--**** End Copyright ******-->
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+</body>
+</html>
